@@ -14,12 +14,3 @@ app.controller ('clcCtrl', function($scope){
  	
 });
 
-app.controller("accontCtrl", function(){
-	
-	   account = { balance = 0};
-	
-	  
-	  
-	
-	
-});
