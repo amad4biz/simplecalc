@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app= "calcApp">
+
+<head>
+<link  rel="stylesheet" type="text/css" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="app.js"></script>
+
+<title>Simple Calculator</title>
+</head>
+
+<body>
+
+<div ng-controller="clcCtrl">
+<div class="container">
+
+		<label>Amount : </label>
+		<input type="number" ng-model="amount" class="input-box"></input> </br>
+
+		<label>Duration : </label>
+		<input type="number" ng-model="duration" class="input-box"></input> </br>
+
+
+		<label>Interest : </label>
+		<input type="number" ng-model="interest" class="input-box"></input> </br>
+
+
+
+
+		<p>Your monthly paiement is {{" USD " + payment()}}</p>
+
+
+
+</div>
+
+</div>
+
+
+</body>
+
+
+</html>

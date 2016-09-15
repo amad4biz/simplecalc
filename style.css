@@ -1,0 +1,13 @@
+body {background-color: light-blue;}
+.container{ width : 900px;}
+
+.input-box{
+	
+	display: block;
+	margin:auto;
+	
+}
+
+label{margin: auto;
+   font-weight: bold;
+}
